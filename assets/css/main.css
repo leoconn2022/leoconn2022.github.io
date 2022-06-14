@@ -801,6 +801,29 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-name: fadeInUpMenu;
 }
 
+.div-only-mobile{
+
+}
+
+@media only screen and (min-width: 768px) {
+  .div-only-mobile{
+    visibility:hidden;
+    display: none;
+
+  }
+
+}
+
+/* only Mobile Phones */
+@media only screen and (max-width: 768px) {
+  .div-only-mobile{
+    visibility:visible;
+
+  }
+
+}
+
+
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .bg-inverse {
