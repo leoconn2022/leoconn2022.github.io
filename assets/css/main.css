@@ -1266,8 +1266,8 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, #92B4EC 0, #C4DDFF 100%);
-  color: #fff;
+  /*background-image: linear-gradient(65deg, #92B4EC 0, #C4DDFF 100%);*/
+  color: black;
   /*padding: 38px 28px;*/
   float: left;
   font-size: 18px;
@@ -1281,7 +1281,7 @@ h1 {
 .schedule .card-header {
   position: relative;
   /*padding: 35px 40px 35px 224px;*/
-  padding: 10px 10px 10px 224px;
+  padding: 0px 10px 10px 224px;
   border-bottom: 1px dashed #e5e5e5;
   cursor: pointer;
   border-left: none;
@@ -1309,7 +1309,7 @@ h1 {
   font-weight: 700;
   font-size: 18px;
   color: #212121;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 8px;
 }
 
@@ -1328,14 +1328,18 @@ h1 {
 }
 
 .schedule .card-body .location {
-  margin-top: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
   font-size: 13px;
   color: #777777;
 }
 
-.schedule .card-body .location span {
-  color: #001D6E;
+.schedule .card-body span {
+
+  color: #212121;
   margin-right: 5px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .accordion .card {
@@ -1700,7 +1704,7 @@ h1 {
 
 .team-item .info-text h3 {
   font-size: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   margin-bottom: 5px;
 }
