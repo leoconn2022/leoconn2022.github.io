@@ -2400,8 +2400,7 @@ footer {
 ========================================================================== */
 .hero-area-bg {
   /*background: url(../img/hero-area.jpg) no-repeat;*/
-  /*background: url('https://images.pexels.com/photos/1619854/pexels-photo-1619854.jpeg?cs=srgb&dl=pexels-mudassir-ali-1619854.jpg&fm=jpg') no-repeat;*/
-  background: url('https://images.pexels.com/photos/5443172/pexels-photo-5443172.jpeg?cs=srgb&dl=pexels-steve-weir-5443172.jpg&fm=jpg');
+  background: url('https://images.pexels.com/photos/1619854/pexels-photo-1619854.jpeg?cs=srgb&dl=pexels-mudassir-ali-1619854.jpg&fm=jpg') no-repeat;
   background-size: cover;
 }
 
@@ -2417,7 +2416,7 @@ footer {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #hero-area .contents {
