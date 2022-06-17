@@ -2399,9 +2399,8 @@ footer {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  /*background: url(../img/hero-area.jpg) no-repeat;*/
-  background: url('https://images.pexels.com/photos/1619854/pexels-photo-1619854.jpeg?cs=srgb&dl=pexels-mudassir-ali-1619854.jpg&fm=jpg') no-repeat;
-  background-size: cover;
+  background: url(../img/cropped_BG.webp) no-repeat;
+ background-size: cover;
 }
 
 #hero-area {
@@ -2421,6 +2420,7 @@ footer {
 
 #hero-area .contents {
   padding: 160px 20px 180px;
+  text-shadow: 2px 2px black;
 }
 
 #hero-area .contents .icon {
